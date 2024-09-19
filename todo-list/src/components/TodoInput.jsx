@@ -1,7 +1,8 @@
 export default function TodoInput(){
     return (
-        <div>
-            TodoInput
+        <div className="inputTask">
+            <input placeholder="O que vamos fazer?" />
+            <button>+</button>
         </div>
     )
 }
