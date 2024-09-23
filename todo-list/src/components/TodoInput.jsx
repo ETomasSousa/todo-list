@@ -1,9 +1,7 @@
 import { useState } from "react"
 
 export default function TodoInput(props){
-    const {handleAddTask} = props
-
-    const [taskValue, setTaskValue] = useState('')
+    const {handleAddTask, taskValue, setTaskValue} = props
 
     return (
         <div className="inputTask">
